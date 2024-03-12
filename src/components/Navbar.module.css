@@ -1,0 +1,75 @@
+/* Navbar.module.css */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  position: relative; /* Make the navbar positioned relative */
+  top: 35%; /* Move the navbar 20px down from its normal position */
+  left: 50%; /* Move the navbar 20px to the right from its normal position */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+/* Navbar.module.css */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex; /* Use flexbox to layout items */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+}
+
+.logoContainer {
+  display: flex; /* Use flexbox for logo and store name */
+  align-items: center; /* Center items vertically */
+}
+
+
+.storeName {
+  margin: 0; /* Remove default margin */
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
