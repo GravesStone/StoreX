@@ -1,14 +1,13 @@
 // Navbar.jsx
 import React from 'react';
-import styles from './Navbar.module.css'; // Import CSS module
-//import logo from './logo.png'; // Import the logo image
+import styles from './mainL.module.css'; // Import CSS module
+import logo from "../assets/logo.png";
 
 function Navbar() {
   return (
     <header className={styles.header}> {/* Apply the header class from the CSS module */}
       <div className={styles.logoContainer}>
-        
-        <h1 className={styles.storeName}>StoreX</h1> {/* Store name */}
+        <img src={logo} alt="Logo" className={styles.logo} /> {/* Render the logo */}
       </div>
       <nav className={styles.navbar}> {/* Apply the navbar class from the CSS module */}
         <ul>

@@ -24,16 +24,18 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  font-family: 'Poppins', sans-serif;
   place-items: center;
-  min-width: 320px;
+  min-width: 300px;
   min-height: 100vh;
+  padding: 0;
+  background-image: url('your-image-url.jpg'); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Optional: adjusts the background image size to cover the entire element */
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+
 
 button {
   border-radius: 8px;
